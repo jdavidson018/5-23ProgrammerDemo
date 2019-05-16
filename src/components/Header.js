@@ -6,35 +6,21 @@ export default class Header extends React.Component {
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
+  renderMenuList() {
+    return this.props.items.map(item => {
+      return (
+        <Menu.Item
+          name={item.name}
+          active={this.state.activeItem === item.name}
+          onClick={this.handleItemClick}
+        />
+      );
+    });
+  }
+
   render() {
     const { activeItem } = this.state;
 
-    return (
-      <Menu>
-        <Menu.Item
-          name="editorials"
-          active={activeItem === "editorials"}
-          onClick={this.handleItemClick}
-        >
-          Editorials
-        </Menu.Item>
-
-        <Menu.Item
-          name="reviews"
-          active={activeItem === "reviews"}
-          onClick={this.handleItemClick}
-        >
-          Reviews
-        </Menu.Item>
-
-        <Menu.Item
-          name="upcomingEvents"
-          active={activeItem === "upcomingEvents"}
-          onClick={this.handleItemClick}
-        >
-          Upcoming Events
-        </Menu.Item>
-      </Menu>
-    );
+    return <Menu>{this.renderMenuList()}</Menu>;
   }
 }
