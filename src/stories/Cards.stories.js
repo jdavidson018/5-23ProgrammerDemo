@@ -9,7 +9,7 @@ export const identity = {
   name: "mowgli",
   imgUrl:
     "https://cdn1-www.dogtime.com/assets/uploads/gallery/great-dane-dogs-and-puppies/great-dane-dogs-puppies-5.jpg",
-  description: "Damn I am cute"
+  description: "Golly Gee I am a cute doggo"
 };
 
 storiesOf("Cards", module)
