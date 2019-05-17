@@ -5,9 +5,17 @@ import { action } from "@storybook/addon-actions";
 import Header from "../components/Header";
 
 export const items = [
-  { id: 1, name: "hello" },
-  { id: 2, name: "there" },
-  { id: 3, name: "mate" }
+  { id: 1, name: "The" },
+  { id: 2, name: "Quick" },
+  { id: 3, name: "Brown" },
+  { id: 4, name: "Fox" },
+  { id: 5, name: "Jumps" },
+  { id: 6, name: "Over" },
+  { id: 7, name: "The" },
+  { id: 8, name: "Lazy" },
+  { id: 9, name: "Dog" }
 ];
 
-storiesOf("Header", module).add("default", () => <Header items={items} />);
+storiesOf("Header", module)
+  .addDecorator(story => <div className="ui container">{story()}</div>)
+  .add("default", () => <Header items={items} />);

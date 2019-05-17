@@ -10,6 +10,7 @@ export default class Header extends React.Component {
     return this.props.items.map(item => {
       return (
         <Menu.Item
+          key={item.id}
           name={item.name}
           active={this.state.activeItem === item.name}
           onClick={this.handleItemClick}
