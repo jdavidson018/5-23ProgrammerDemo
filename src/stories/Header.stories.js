@@ -6,7 +6,6 @@ import Header from "../components/Header/Header";
 import HeaderReadme from "../components/Header/README.md";
 
 export const items = [
-  { id: 1, name: "The" },
   { id: 2, name: "Quick" },
   { id: 3, name: "Brown" },
   { id: 4, name: "Fox" },
