@@ -1,30 +1,27 @@
 import React from "react";
-import Header from "./components/Header";
-import MainCard from "./components/MainCard/MainCard";
-import SideMenu from "./components/SideMenu";
-function App() {
-  const items = [
-    { id: 1, name: "hello" },
-    { id: 2, name: "there" },
-    { id: 3, name: "mate" }
-  ];
+import { HashRouter, Route, Switch } from "react-router-dom";
 
-  const identity = {
-    id: 1,
-    name: "mowgli",
-    imgUrl:
-      "https://cdn1-www.dogtime.com/assets/uploads/gallery/great-dane-dogs-and-puppies/great-dane-dogs-puppies-5.jpg",
-    description: "Damn I am cute"
-  };
+import history from "./history";
+import DogCreate from "./pages/DogCreate";
+import DogDelete from "./pages/DogDelete";
+import DogInfo from "./pages/DogInfo";
+import DogList from "./pages/DogList";
+import DogUpdate from "./pages/DogUpdate";
+
+function App() {
   return (
     <div className="ui container">
-      <SideMenu />
-      <Header items={items} />
-      <img
-        src="https://cdn1-www.dogtime.com/assets/uploads/gallery/great-dane-dogs-and-puppies/great-dane-dogs-puppies-5.jpg"
-        alt="Should be a dane here"
-      />
-      <MainCard identity={identity} />
+      <HashRouter history={history}>
+        <div>
+          <Switch>
+            <Route path="/" exact component={DogList} />
+            <Route path="/dogs/new" exact component={DogCreate} />
+            <Route path="/dogs/edit/:id" exact component={DogUpdate} />
+            <Route path="/dogs/delete/:id" exact component={DogDelete} />
+            <Route path="/dogs/:id" exact component={DogInfo} />
+          </Switch>
+        </div>
+      </HashRouter>
     </div>
   );
 }
