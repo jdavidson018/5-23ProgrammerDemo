@@ -1,6 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
+import { withKnobs, object } from "@storybook/addon-knobs/react";
 
 import MainCard from "../components/MainCard";
 
@@ -13,5 +14,5 @@ export const identity = {
 };
 
 storiesOf("Cards", module)
-  .addDecorator(story => <div className="ui container">{story()}</div>)
-  .add("MainCard", () => <MainCard identity={identity} />);
+  .addDecorator(withKnobs)
+  .add("MainCard", () => <MainCard identity={object("identity", identity)} />);
