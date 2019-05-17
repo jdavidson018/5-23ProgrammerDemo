@@ -3,7 +3,8 @@ import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { withKnobs, object } from "@storybook/addon-knobs/react";
 
-import MainCard from "../components/MainCard";
+import MainCard from "../components/MainCard/MainCard";
+import MainCardReadme from "../components/MainCard/README.md";
 
 export const identity = {
   id: 1,
@@ -15,4 +16,10 @@ export const identity = {
 
 storiesOf("Cards", module)
   .addDecorator(withKnobs)
+  .addParameters({
+    readme: {
+      // Show readme at the addons panel
+      sidebar: MainCardReadme
+    }
+  })
   .add("MainCard", () => <MainCard identity={object("identity", identity)} />);

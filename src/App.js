@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import MainCard from "./components/MainCard";
+import MainCard from "./components/MainCard/MainCard";
 import SideMenu from "./components/SideMenu";
 function App() {
   const items = [

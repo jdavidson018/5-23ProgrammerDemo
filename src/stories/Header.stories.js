@@ -2,7 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
+import HeaderReadme from "../components/Header/README.md";
 
 export const items = [
   { id: 1, name: "The" },
@@ -18,4 +19,10 @@ export const items = [
 
 storiesOf("Header", module)
   .addDecorator(story => <div className="ui container">{story()}</div>)
+  .addParameters({
+    readme: {
+      // Show readme at the addons panel
+      sidebar: HeaderReadme
+    }
+  })
   .add("default", () => <Header items={items} />);
