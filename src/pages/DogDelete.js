@@ -27,7 +27,7 @@ class DogDelete extends React.Component {
 
   renderContent() {
     if (!this.props.dog) {
-      return "Are you sure you want to delete this stream?";
+      return "Are you sure you want to delete this dog?";
     }
     return `Are you sure you want to delte the Dog with name: ${
       this.props.dog.Name
