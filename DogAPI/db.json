@@ -17,6 +17,12 @@
       "Name": "Bear",
       "description": "Black Lab",
       "imgURL": "https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/251/236/87692163.jpg"
+    },
+    {
+      "id": "9",
+      "Name": "Tony",
+      "description": "Puppy puppy puppy",
+      "imgURL": "https://s3.us-west-2.amazonaws.com/photos.puppyspot.com/breeds/299/card/500000290_medium.jpg"
     }
   ]
 }

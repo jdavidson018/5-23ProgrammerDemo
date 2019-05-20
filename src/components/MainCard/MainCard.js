@@ -4,22 +4,20 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const MainCard = ({ dog }) => (
-  <div className="card">
+  <div className="ui card">
     <div className="image">
-      <Image src={dog.imgURL} className="Medium" />
+      <Image
+        style={{ height: "200px", width: "300px" }}
+        src={dog.imgURL}
+        className="Medium"
+      />
     </div>
     <div className="content">
       <div className="header">{dog.Name}</div>
       <div className="meta">
-        <span className="date">Joined in 2015</span>
+        <span className="date">Great Dane</span>
       </div>
       <div className="description">{dog.description}</div>
-    </div>
-    <div className="extra content">
-      <a>
-        <Icon name="user" />
-        22 Friends
-      </a>
     </div>
     <div className="extra content">
       <Link to={`/dogs/${dog.id}`} className="ui button primary">

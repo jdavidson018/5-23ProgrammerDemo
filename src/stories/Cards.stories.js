@@ -8,8 +8,8 @@ import MainCardReadme from "../components/MainCard/README.md";
 
 export const identity = {
   id: 1,
-  name: "mowgli",
-  imgUrl:
+  Name: "mowgli",
+  imgURL:
     "https://cdn1-www.dogtime.com/assets/uploads/gallery/great-dane-dogs-and-puppies/great-dane-dogs-puppies-5.jpg",
   description: "Golly Gee I am a cute doggo"
 };
@@ -22,4 +22,4 @@ storiesOf("Cards", module)
       sidebar: MainCardReadme
     }
   })
-  .add("MainCard", () => <MainCard identity={object("identity", identity)} />);
+  .add("MainCard", () => <MainCard dog={object("identity", identity)} />);

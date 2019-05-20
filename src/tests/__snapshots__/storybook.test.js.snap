@@ -1,914 +1,657 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Button Animated 1`] = `
-<div>
+<div
+  className="storybook-readme-story"
+>
   <div
-    class="ui animated button"
-    tabindex="0"
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    <div
-      class="visible content"
-    >
-      Next
-    </div>
-    <div
-      class="hidden content"
-    >
-      <i
-        class="right arrow icon"
-      />
-    </div>
-  </div>
-  <div
-    class="ui vertical animated button"
-    tabindex="0"
-  >
-    <div
-      class="hidden content"
-    >
-      Shop
-    </div>
-    <div
-      class="visible content"
-    >
-      <i
-        class="shop icon"
-      />
-    </div>
-  </div>
-  <div
-    class="ui animated fade button"
-    tabindex="0"
-  >
-    <div
-      class="visible content"
-    >
-      Hello
-    </div>
-    <div
-      class="hidden content"
-    >
-      <i
-        class="hand peace icon"
-      />
+    <div>
+      <div>
+        <div
+          class="ui animated button"
+          tabindex="0"
+        >
+          <div
+            class="visible content"
+          >
+            Next
+          </div>
+          <div
+            class="hidden content"
+          >
+            <i
+              class="right arrow icon"
+            />
+          </div>
+        </div>
+        <div
+          class="ui vertical animated button"
+          tabindex="0"
+        >
+          <div
+            class="hidden content"
+          >
+            Shop
+          </div>
+          <div
+            class="visible content"
+          >
+            <i
+              class="shop icon"
+            />
+          </div>
+        </div>
+        <div
+          class="ui animated fade button"
+          tabindex="0"
+        >
+          <div
+            class="visible content"
+          >
+            Hello
+          </div>
+          <div
+            class="hidden content"
+          >
+            <i
+              class="hand peace icon"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Button Basic Primary 1`] = `
-<div>
-  <button
-    class="ui primary basic button"
+<div
+  className="storybook-readme-story"
+>
+  <div
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    Primary
-  </button>
-  <button
-    class="ui secondary basic button"
-  >
-    Secondary
-  </button>
-  <button
-    class="ui positive basic button"
-  >
-    Positive
-  </button>
-  <button
-    class="ui negative basic button"
-  >
-    Negative
-  </button>
+    <div>
+      <div>
+        <button
+          class="ui primary basic button"
+        >
+          Primary
+        </button>
+        <button
+          class="ui secondary basic button"
+        >
+          Secondary
+        </button>
+        <button
+          class="ui positive basic button"
+        >
+          Positive
+        </button>
+        <button
+          class="ui negative basic button"
+        >
+          Negative
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Button Default 1`] = `
-<button
-  class="ui button"
+<div
+  className="storybook-readme-story"
 >
-  Hello
-</button>
+  <div
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
+  >
+    <div>
+      <button
+        class="ui button"
+      >
+        Hello
+      </button>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Storyshots Button Primary 1`] = `
-<button
-  class="ui primary button"
+<div
+  className="storybook-readme-story"
 >
-  Hello
-</button>
+  <div
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
+  >
+    <div>
+      <button
+        class="ui primary button"
+      >
+        Hello
+      </button>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Storyshots Button Secondary 1`] = `
-<button
-  class="ui secondary button"
->
-  Hello
-</button>
-`;
-
-exports[`Storyshots Task archived 1`] = `
 <div
-  className="list-item TASK_ARCHIVED"
+  className="storybook-readme-story"
 >
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={true}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
   <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  />
-</div>
-`;
-
-exports[`Storyshots Task default 1`] = `
-<div
-  className="list-item TASK_INBOX"
->
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
-  <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  >
-    <a
-      onClick={[Function]}
-    >
-      <span
-        className="icon-star"
-      />
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Task pinned 1`] = `
-<div
-  className="list-item TASK_PINNED"
->
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
-  <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  >
-    <a
-      onClick={[Function]}
-    >
-      <span
-        className="icon-star"
-      />
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots TaskList default 1`] = `
-<div
-  style={
-    Object {
-      "padding": "3rem",
+    style={
+      Object {
+        "margin": "32px 0",
+      }
     }
-  }
+  >
+    <div>
+      <button
+        class="ui secondary button"
+      >
+        Hello
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards MainCard 1`] = `
+<div
+  className="storybook-readme-story"
 >
   <div
-    className="list-items"
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+    <div>
       <div
-        className="title"
+        className="ui card"
       >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 1"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
+        <div
+          className="image"
         >
-          <span
-            className="icon-star"
+          <img
+            className="ui image Medium"
+            src="https://cdn1-www.dogtime.com/assets/uploads/gallery/great-dane-dogs-and-puppies/great-dane-dogs-puppies-5.jpg"
+            style={
+              Object {
+                "height": "200px",
+                "width": "300px",
+              }
+            }
           />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 2"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
+        </div>
+        <div
+          className="content"
         >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 3"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
+          <div
+            className="header"
+          >
+            mowgli
+          </div>
+          <div
+            className="meta"
+          >
+            <span
+              className="date"
+            >
+              Great Dane
+            </span>
+          </div>
+          <div
+            className="description"
+          >
+            Golly Gee I am a cute doggo
+          </div>
+        </div>
+        <div
+          className="extra content"
         >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 4"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 5"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 6"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
+          <a
+            className="ui button primary"
+            href="/dogs/1"
+            onClick={[Function]}
+          >
+            Details
+          </a>
+          <a
+            className="ui button danger"
+            href="/dogs/edit/1"
+            onClick={[Function]}
+          >
+            Edit
+          </a>
+          <a
+            className="ui button"
+            href="/dogs/delete/1"
+            onClick={[Function]}
+          >
+            Delete
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots TaskList empty 1`] = `
+exports[`Storyshots Header Default Header 1`] = `
 <div
-  style={
-    Object {
-      "padding": "3rem",
-    }
-  }
+  className="storybook-readme-story"
 >
   <div
-    className="list-items"
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    <div
-      className="wrapper-message"
-    >
-      <span
-        className="icon-check"
-      />
+    <div>
       <div
-        className="title-message"
+        className="ui container"
       >
-        You have no tasks
-      </div>
-      <div
-        className="subtitle-message"
-      >
-        Sit back and relax
+        <div
+          className="ui fixed inverted menu"
+        >
+          <div
+            className="ui container"
+          >
+            <a
+              className="header item"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="fas fa-paw fa-2x"
+              />
+            </a>
+            <a
+              className="item"
+              href="/dogs/new"
+              onClick={[Function]}
+            >
+              Dogs
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots TaskList loading 1`] = `
+exports[`Storyshots Header default 1`] = `
 <div
-  style={
-    Object {
-      "padding": "3rem",
-    }
-  }
+  className="storybook-readme-story"
 >
   <div
-    className="list-items"
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
+    <div>
+      <div
+        className="ui container"
       >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      className="loading-item"
-    >
-      <span
-        className="glow-checkbox"
-      />
-      <span
-        className="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
+        <div
+          className="ui fixed inverted menu"
+        >
+          <div
+            className="ui container"
+          >
+            <a
+              className="header item"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="fas fa-paw fa-2x"
+              />
+            </a>
+            <a
+              className="item"
+              href="/dogs/new"
+              onClick={[Function]}
+            >
+              Dogs
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots TaskList withPinnedTasks 1`] = `
+exports[`Storyshots Tables Default Table 1`] = `
 <div
-  style={
-    Object {
-      "padding": "3rem",
-    }
-  }
+  className="storybook-readme-story"
 >
   <div
-    className="list-items"
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
   >
-    <div
-      className="list-item TASK_PINNED"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+    <div>
       <div
-        className="title"
+        className="ui container"
       >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 6 (pinned)"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
+        <table
+          className="ui celled table"
         >
-          <span
-            className="icon-star"
-          />
-        </a>
+          <thead>
+            <tr>
+              <th>
+                Id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Breed
+              </th>
+              <th>
+                Info
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                1
+              </td>
+              <td
+                data-label="Name"
+              >
+                Butty
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Great Dane
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                2
+              </td>
+              <td
+                data-label="Name"
+              >
+                Buster
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Yellow Lab
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                3
+              </td>
+              <td
+                data-label="Name"
+              >
+                Barney
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Bernese Mountain Dog
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                4
+              </td>
+              <td
+                data-label="Name"
+              >
+                Bitsy
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Maltipoo
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables default 1`] = `
+<div
+  className="storybook-readme-story"
+>
+  <div
+    style={
+      Object {
+        "margin": "32px 0",
+      }
+    }
+  >
+    <div>
       <div
-        className="title"
+        className="ui container"
       >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 1"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
+        <table
+          className="ui celled table"
         >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 2"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 3"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 4"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          type="text"
-          value="Task 5"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
+          <thead>
+            <tr>
+              <th>
+                Id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Breed
+              </th>
+              <th>
+                Info
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                1
+              </td>
+              <td
+                data-label="Name"
+              >
+                Butty
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Great Dane
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                2
+              </td>
+              <td
+                data-label="Name"
+              >
+                Buster
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Yellow Lab
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                3
+              </td>
+              <td
+                data-label="Name"
+              >
+                Barney
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Bernese Mountain Dog
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                data-label="Id"
+              >
+                4
+              </td>
+              <td
+                data-label="Name"
+              >
+                Bitsy
+              </td>
+              <td
+                data-label="Breed"
+              >
+                Maltipoo
+              </td>
+              <td
+                data-label="Info"
+              >
+                <a
+                  className="ui button"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Info
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

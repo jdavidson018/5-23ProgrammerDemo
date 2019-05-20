@@ -10,10 +10,10 @@ import DogUpdate from "./pages/DogUpdate";
 import Header from "./components/Header/Header";
 function App() {
   return (
-    <div className="ui container">
+    <div>
       <Router history={history}>
-        <div>
-          <Header />
+        <Header />
+        <div style={{ marginTop: "70px" }} className="ui main container">
           <Switch>
             <Route path="/" exact component={DogList} />
             <Route path="/dogs/new" exact component={DogCreate} />

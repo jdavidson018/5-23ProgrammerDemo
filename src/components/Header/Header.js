@@ -13,28 +13,11 @@ export default class Header extends React.Component {
       <div className="ui fixed inverted menu">
         <div className="ui container">
           <Link to="/" className="header item">
-            Dogs forever!
+            <i className="fas fa-paw fa-2x" />
           </Link>
-          <Link to="/about" className="item">
-            About
+          <Link to="/dogs/new" className="item">
+            Dogs
           </Link>
-          <div className="ui simple dropdown item">
-            Dropdown <i className="dropdown icon" />
-            <div className="menu">
-              <Link to="/dogs/new" className="item">
-                Add a Dog
-              </Link>
-              <Link to="/dogs/delete/:id" className="item">
-                Remove a Dog
-              </Link>
-              <Link to="/dogs/:id" className="item">
-                Fetch a Dog
-              </Link>
-              <Link to="/dogs/edit/:id" className="item">
-                Update a Dog
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     );

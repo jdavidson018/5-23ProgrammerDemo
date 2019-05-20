@@ -14,7 +14,7 @@ class DogList extends React.Component {
   }
 
   render() {
-    return <div className="ui celled list">{this.renderList()}</div>;
+    return <div className="ui link cards">{this.renderList()}</div>;
   }
 }
 
