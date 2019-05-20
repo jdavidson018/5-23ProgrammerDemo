@@ -1,3 +1,22 @@
 {
-  "dogs": []
+  "dogs": [
+    {
+      "id": "3",
+      "Name": "Mowgli",
+      "description": "Great Dane 1",
+      "imgURL": "https://vetstreet.brightspotcdn.com/dims4/default/e1bbff7/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F04%2F43%2Fc530807343e5a684b6f0b5eaa4e0%2Fgreat-dane-ap-1xo5vr-645.jpg"
+    },
+    {
+      "id": "4",
+      "Name": "Chief",
+      "description": "Great Dane 2",
+      "imgURL": "https://cdn.orvis.com/images/DBS_GreatDane_1280.jpg"
+    },
+    {
+      "id": "5",
+      "Name": "Bear",
+      "description": "Black Lab",
+      "imgURL": "https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/251/236/87692163.jpg"
+    }
+  ]
 }

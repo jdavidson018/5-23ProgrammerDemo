@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 
 import history from "./history";
 import DogCreate from "./pages/DogCreate";
@@ -8,22 +8,12 @@ import DogInfo from "./pages/DogInfo";
 import DogList from "./pages/DogList";
 import DogUpdate from "./pages/DogUpdate";
 import Header from "./components/Header/Header";
-import SideMenu from "./components/SideMenu";
 function App() {
-  const items = [
-    { id: 1, name: "List" },
-    { id: 2, name: "Create" },
-    { id: 3, name: "Retrieve" },
-    { id: 4, name: "Update" },
-    { id: 5, name: "Delete" }
-  ];
-
   return (
     <div className="ui container">
-      <HashRouter history={history}>
+      <Router history={history}>
         <div>
-          <Header items={items} />
-          <SideMenu />
+          <Header />
           <Switch>
             <Route path="/" exact component={DogList} />
             <Route path="/dogs/new" exact component={DogCreate} />
@@ -32,7 +22,7 @@ function App() {
             <Route path="/dogs/:id" exact component={DogInfo} />
           </Switch>
         </div>
-      </HashRouter>
+      </Router>
     </div>
   );
 }

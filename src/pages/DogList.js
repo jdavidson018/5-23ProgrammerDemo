@@ -1,7 +1,30 @@
 import React from "react";
+import { connect } from "react-redux";
+import { fetchDogs } from "../actions";
+import MainCard from "../components/MainCard/MainCard";
+class DogList extends React.Component {
+  componentDidMount() {
+    this.props.fetchDogs();
+  }
 
-const DogList = () => {
-  return <div>List</div>;
+  renderList() {
+    return this.props.dogs.map(dog => {
+      return <MainCard key={dog.id} dog={dog} />;
+    });
+  }
+
+  render() {
+    return <div className="ui celled list">{this.renderList()}</div>;
+  }
+}
+
+const mapStateToProps = state => {
+  return {
+    dogs: Object.values(state.dogs)
+  };
 };
 
-export default DogList;
+export default connect(
+  mapStateToProps,
+  { fetchDogs }
+)(DogList);
