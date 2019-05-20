@@ -2,8 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, object } from "@storybook/addon-knobs/react";
 
-import DogTable from "../components/DogTable/DogTable";
-import DogTableReadme from "../components/DogTable/README.md";
+import { TestModal } from "../components/Modal/Modal";
+import ModalReadme from "../components/Modal/README.md";
 
 const dogs = [
   { id: 1, name: "Butty", breed: "Great Dane", info: "/" },
@@ -12,12 +12,12 @@ const dogs = [
   { id: 4, name: "Bitsy", breed: "Maltipoo", info: "/" }
 ];
 
-storiesOf("Tables", module)
+storiesOf("Modals", module)
   .addDecorator(withKnobs)
   .addDecorator(story => <div className="ui container">{story()}</div>)
   .addParameters({
     readme: {
-      sidebar: DogTableReadme
+      sidebar: ModalReadme
     }
   })
-  .add("Default Table", () => <DogTable dogs={object("dogs", dogs)} />);
+  .add("Delete Modal", () => <TestModal />);

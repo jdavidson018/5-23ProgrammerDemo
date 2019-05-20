@@ -17,4 +17,19 @@ const Modal = props => {
   );
 };
 
+export const TestModal = () => {
+  return (
+    <div className="ui dimmer modals visible active">
+      <div className="ui standard modal visible active">
+        <div className="header">Delete Stream</div>
+        <div className="content">Are you sure you want to delete this dog?</div>
+        <div className="actions">
+          <button className="ui button negative">Delete</button>
+          <button className="ui button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Modal;

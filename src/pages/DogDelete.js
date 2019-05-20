@@ -2,7 +2,7 @@ import React from "react";
 import { fetchDog, deleteDog } from "../actions";
 import { connect } from "react-redux";
 import history from "../history";
-import Modal from "../components/Modal";
+import Modal from "../components/Modal/Modal";
 
 class DogDelete extends React.Component {
   componentDidMount() {
