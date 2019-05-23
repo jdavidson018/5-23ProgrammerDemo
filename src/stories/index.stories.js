@@ -3,7 +3,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 
 storiesOf("Button", module)
-  .add("Primary", () => <button class="ui primary button">Hello</button>)
+  .add("Primary", () => <button class="ui primary button">Goodbye</button>)
   .add("Secondary", () => <button class="ui secondary button">Hello</button>)
   .add("Default", () => <button class="ui button">Hello</button>)
   .add("Animated", () => (
